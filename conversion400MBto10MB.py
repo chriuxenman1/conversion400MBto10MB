@@ -51,4 +51,4 @@ frames = pd.concat(frames, axis=1)
 # Set zeit as an index
 result = frames.set_index('Zeit')
 # Create csv
-result.to_csv(r'C:\Users\bauerch\Documents\Stromrohdaten_Proleit\CSV_01042018bis02092020\' + fol[-19:] + '.csv') 
+result.to_csv(r'C:\Users\xx\Desktop\CSV_01042018bis02092020\' + fol[-19:] + '.csv') 
